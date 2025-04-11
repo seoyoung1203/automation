@@ -1,8 +1,11 @@
 # cron
-- cron jab 등록
+- cron tab 등록
 ```shell
 crontab -e
 ```
+i -> insert 모드
+esc -> 탈출
+:wq -> 종료
 
 - cron 리스트 확인
 ```shell

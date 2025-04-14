@@ -39,13 +39,13 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 ### copy > copy selector
 
-- li:nth-of-type() 몇 번째 li 태그를 선택할지 지정
+- li:nth-of-type() >> 몇 번째 li 태그를 선택할지 지정
     cf) li:first-child
-- p:not(.foo) 특정한 상황 제외하고 아닌 친구 뽑아줌
-- li:nth-of-type(2n+3)(수식) 원하는 특정 데이터 반복 찾기
-- div>* div 태그 안에 있는 모든 자식 요소 가져오세요
-- span[data-item] data-item이라고 하는 arrtibute를 가진 데이터 뽑기
-- p ~ span p와 동등한 level에 있는 span 태그 가져오기 (형제 선택자)
+- p:not(.foo) >> 특정한 상황 제외하고 아닌 친구 뽑아줌
+- li:nth-of-type(2n+3)(수식) >> 원하는 특정 데이터 반복 찾기
+- div>* div >> 태그 안에 있는 모든 자식 요소 가져오세요
+- span[data-item] >> data-item이라고 하는 arrtibute를 가진 데이터 뽑기
+- p ~ span >> p와 동등한 level에 있는 span 태그 가져오기 (형제 선택자)
 - :enabled >> disabled가 없는 애들 
 - #one,#two,#six,#nine >> 내가 원하는 요소의 지정된 id 값으로 가져오기 
 - a + 

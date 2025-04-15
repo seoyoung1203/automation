@@ -18,5 +18,5 @@ for el in range(2):
 
 
     title = driver.find_element(By.CSS_SELECTOR, 'a.list_title')
-    print(title)
+    print(title.text)
     
